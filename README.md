@@ -43,6 +43,7 @@
 | `data/raw/` | 测试 **LoPT 方法准确度**的原始评测数据集（LongBenchV2 / LEval / ClongEval） |
 | `data/vllm_service/` | 测试 **vLLM 服务性能**的预处理数据集（LongBenchV2 多长度版本） |
 | `data/prepare_datasets.py` | 数据集预处理脚本：读 `raw/`，处理后写入 `vllm_service/` |
+| `data/README.md` | 数据集说明（目录结构、下载方式、预处理方法） |
 | `models/` | 本地模型权重（如 `Qwen3-8B/`），供 benchmark 和 serve 脚本使用 |
 | `scripts/` | 运行脚本（benchmark、serve、环境配置、smoke test） |
 
