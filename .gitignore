@@ -1,0 +1,47 @@
+# ============ 模型权重 ============
+models/
+
+# ============ 数据集 ============
+data/raw/
+data/vllm_service/*.jsonl
+
+# ============ vLLM 编译产物 ============
+vllm/.deps/
+vllm/vllm/*.abi3.so
+vllm/vllm/lopt_cpp*.so
+vllm/vllm/vllm_flash_attn/
+vllm/build/
+vllm/dist/
+vllm/*.egg-info/
+
+# ============ Python ============
+**/__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+
+# ============ 构建系统 ============
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+build.ninja
+.ninja_log
+.ninja_deps
+*.build-temp
+
+# ============ IDE / 编辑器 ============
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============ 日志 / 运行产物 ============
+*.log
+scripts/log/
+benchmarks/results/
+
+# ============ Claude AI 配置 ============
+.claude/
